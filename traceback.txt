@@ -1,0 +1,34 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 74, in script
+    show aura at right with dissolve
+Exception: DynamicImage 'images/sprites/aura/Boy_[aura_emotion].png': could not find image. ('images/sprites/aura/Boy_Serious.png')
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 74, in script
+    show aura at right with dissolve
+  File "C:\Users\rulkennedy\OneDrive\Documents\Kuliah\Semester 7\Game\renpy-8.3.2-sdk\renpy\ast.py", line 1111, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "C:\Users\rulkennedy\OneDrive\Documents\Kuliah\Semester 7\Game\renpy-8.3.2-sdk\renpy\ast.py", line 1074, in show_imspec
+    renpy.config.show(name,
+  File "C:\Users\rulkennedy\OneDrive\Documents\Kuliah\Semester 7\Game\renpy-8.3.2-sdk\renpy\exports\displayexports.py", line 503, in show
+    sls.add(layer, img, key, zorder, behind, at_list=at_list, name=name, atl=atl, default_transform=default_transform, transient=transient)
+  File "C:\Users\rulkennedy\OneDrive\Documents\Kuliah\Semester 7\Game\renpy-8.3.2-sdk\renpy\display\scenelists.py", line 466, in add
+    thing.set_transform_event("show")
+  File "C:\Users\rulkennedy\OneDrive\Documents\Kuliah\Semester 7\Game\renpy-8.3.2-sdk\renpy\display\transform.py", line 823, in set_transform_event
+    self.child.set_transform_event(event)
+  File "C:\Users\rulkennedy\OneDrive\Documents\Kuliah\Semester 7\Game\renpy-8.3.2-sdk\renpy\display\image.py", line 501, in set_transform_event
+    return self.target.set_transform_event(event)
+  File "C:\Users\rulkennedy\OneDrive\Documents\Kuliah\Semester 7\Game\renpy-8.3.2-sdk\renpy\display\image.py", line 760, in set_transform_event
+    self.find_target()
+  File "C:\Users\rulkennedy\OneDrive\Documents\Kuliah\Semester 7\Game\renpy-8.3.2-sdk\renpy\display\image.py", line 683, in find_target
+    raise Exception(error)
+Exception: DynamicImage 'images/sprites/aura/Boy_[aura_emotion].png': could not find image. ('images/sprites/aura/Boy_Serious.png')
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.3.2.24090902
+Fantasy Ren'py GUI template 1.0
+Sun Oct 27 21:45:08 2024
