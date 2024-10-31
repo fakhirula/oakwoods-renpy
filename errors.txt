@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 67: expected 'simple_expression' not found.
-    show faramir at 
-                    ^
+File "game/script.rpy", line 157: end of line expected.
+    show faramir at center wi dissolve
+                           ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Sun Oct 27 21:42:35 2024
+Fri Nov  1 00:38:52 2024
