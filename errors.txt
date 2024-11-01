@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 157: end of line expected.
-    show faramir at center wi dissolve
-                           ^
+File "game/script.rpy", line 467: choice menuitem expects a non-empty block.
+    "Rune merasa terkejut tapi yakin pada teman-temannya":
+                                                          ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Fri Nov  1 00:38:52 2024
+Fri Nov  1 15:30:01 2024
